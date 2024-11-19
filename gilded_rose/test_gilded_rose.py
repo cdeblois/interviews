@@ -23,6 +23,7 @@ def test_gilded_rose(days=1):
              Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=15, quality=20),
              Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=10, quality=49),
              Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=5, quality=49),
+             Item(name="New Product", sell_in=5, quality=10),
              # Item(name="Conjured Mana Cake", sell_in=3, quality=6),  # <-- :O
             ]
     gilded_rose = GildedRose(items)
@@ -38,6 +39,7 @@ def test_gilded_rose(days=1):
             Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=14, quality=21),
             Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=9, quality=50),
             Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=4, quality=50),
+            Item(name="New Product", sell_in=4, quality=8),
             # Item(name="Conjured Mana Cake", sell_in=2, quality=4),  # <-- :O
         ],
         [
@@ -51,6 +53,7 @@ def test_gilded_rose(days=1):
             Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=13, quality=22),
             Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=8, quality=50),
             Item(name="Backstage passes to a TAFKAL80ETC concert", sell_in=3, quality=50),
+            Item(name="New Product", sell_in=3, quality=6),
             # Item(name="Conjured Mana Cake", sell_in=1, quality=2),  # <-- :O
         ],
     ]
